@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.containerBackground{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.488);
+}
+
+.container{
+    /* position: absolute;
+    left: 30%;
+    top: 18%; */
+    text-align: center;
+    color: white;
+    background-color: gray;
+    width: 40%;
+    border-radius: 10px;
+    border: 2px solid white;
+    justify-items: center;
+    margin: auto;
+    margin-top: 130px;
+    margin-bottom: 100px;
+    padding: 25px;
+}
+
+.container #validacaoTitulo{
+    font-size: 230%;
+}
+
+.container #validacaoTitulo::before{
+    content: "⚠ ";
+    color: yellow;
+}
+
+.container #validacaoTitulo::after{
+    content: " ⚠";
+    color: yellow;
+}
+
+.container p{
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+.container input{
+    margin-top: 20px;
+    margin-bottom: 25px;
+    width: 50%;
+    border: none;
+    border-radius: 7px;
+    font-size: 30px;
+    padding: 8px;
+}
+
+
+
+.container button{
+    border: none;
+    border-radius: 7px;
+    font-size: 50px;
+    padding: 15px;
+    margin-bottom: 30px;
+    background-color: orange;
+    color: black;
+    box-shadow: 4px 5px 5px black;
+}
+
+.container button:hover{
+    cursor: pointer;
+    border: 2px solid red;
+    box-shadow: 4px 5px 5px rgba(142, 9, 9, 0.475);
+}
